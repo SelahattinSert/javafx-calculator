@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="440.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.calculator.controller.CalculatorController">
+   <children>
+      <Button layoutX="232.0" layoutY="191.0" mnemonicParsing="false" onAction="#multiplyButtonAction" prefHeight="36.0" prefWidth="38.0" text="*">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button layoutX="232.0" layoutY="145.0" mnemonicParsing="false" onAction="#divideButtonAction" prefHeight="36.0" prefWidth="38.0" text="/">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button layoutX="232.0" layoutY="279.0" mnemonicParsing="false" onAction="#plusButtonAction" prefHeight="36.0" prefWidth="38.0" text="+">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button layoutX="232.0" layoutY="238.0" mnemonicParsing="false" onAction="#subtractButtonAction" prefHeight="36.0" prefWidth="38.0" text="-">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <TextField fx:id="textField" layoutX="98.0" layoutY="55.0" prefHeight="26.0" prefWidth="245.0" />
+      <Button layoutX="279.0" layoutY="191.0" mnemonicParsing="false" onAction="#exponentialButtonAction" prefHeight="36.0" prefWidth="38.0" text="^" />
+      <Button layoutX="279.0" layoutY="145.0" mnemonicParsing="false" onAction="#sqrtButtonAction" prefHeight="36.0" prefWidth="38.0" text="sqrt" />
+      <Button layoutX="97.0" layoutY="238.0" mnemonicParsing="false" onAction="#oneButtonAction" prefHeight="36.0" prefWidth="38.0" text="1" />
+      <Button layoutX="142.0" layoutY="238.0" mnemonicParsing="false" onAction="#twoButtonAction" prefHeight="36.0" prefWidth="38.0" text="2" />
+      <Button layoutX="188.0" layoutY="238.0" mnemonicParsing="false" onAction="#threeButtonAction" prefHeight="36.0" prefWidth="38.0" text="3" />
+      <Button layoutX="232.0" layoutY="102.0" mnemonicParsing="false" onAction="#ACButtonAction" prefHeight="36.0" prefWidth="38.0" text="AC" />
+      <Button layoutX="97.0" layoutY="191.0" mnemonicParsing="false" onAction="#fourButtonAction" prefHeight="36.0" prefWidth="38.0" text="4" />
+      <Button layoutX="142.0" layoutY="191.0" mnemonicParsing="false" onAction="#fiveButtonAction" prefHeight="36.0" prefWidth="38.0" text="5" />
+      <Button layoutX="188.0" layoutY="191.0" mnemonicParsing="false" onAction="#sixButtonAction" prefHeight="36.0" prefWidth="38.0" text="6" />
+      <Button layoutX="97.0" layoutY="145.0" mnemonicParsing="false" onAction="#sevenButtonAction" prefHeight="36.0" prefWidth="38.0" text="7" />
+      <Button layoutX="142.0" layoutY="145.0" mnemonicParsing="false" onAction="#eightButtonAction" prefHeight="36.0" prefWidth="38.0" text="8" />
+      <Button layoutX="188.0" layoutY="145.0" mnemonicParsing="false" onAction="#nineButtonAction" prefHeight="36.0" prefWidth="38.0" text="9" />
+      <Button layoutX="97.0" layoutY="102.0" mnemonicParsing="false" onAction="#openBracketButtonAction" prefHeight="36.0" prefWidth="38.0" text="(" />
+      <Button layoutX="142.0" layoutY="279.0" mnemonicParsing="false" onAction="#dotButtonAction" prefHeight="36.0" prefWidth="38.0" text="." />
+      <Button layoutX="142.0" layoutY="102.0" mnemonicParsing="false" onAction="#closeBracketButtonAction" prefHeight="36.0" prefWidth="38.0" text=")" />
+      <Button layoutX="188.0" layoutY="279.0" mnemonicParsing="false" onAction="#resultButtonAction" prefHeight="36.0" prefWidth="38.0" text="=" />
+      <Button layoutX="97.0" layoutY="279.0" mnemonicParsing="false" onAction="#zeroButtonAction" prefHeight="36.0" prefWidth="38.0" text="0" />
+      <Button layoutX="279.0" layoutY="238.0" mnemonicParsing="false" onAction="#piButtonAction" prefHeight="36.0" prefWidth="38.0" text="π" />
+      <Button layoutX="188.0" layoutY="102.0" mnemonicParsing="false" onAction="#factorialButtonAction" prefHeight="36.0" prefWidth="38.0" text="!" />
+      <Button layoutX="279.0" layoutY="279.0" mnemonicParsing="false" onAction="#sinButtonAction" prefHeight="36.0" prefWidth="38.0" text="sin" />
+      <Button layoutX="324.0" layoutY="102.0" mnemonicParsing="false" onAction="#cosButtonAction" prefHeight="36.0" prefWidth="38.0" text="cos" />
+      <Button layoutX="324.0" layoutY="145.0" mnemonicParsing="false" onAction="#tanButtonAction" prefHeight="36.0" prefWidth="38.0" text="tan" />
+      <Button layoutX="279.0" layoutY="102.0" mnemonicParsing="false" onAction="#CEButtonAction" prefHeight="36.0" prefWidth="38.0" text="CE" />
+      <ComboBox fx:id="comboBox" layoutX="17.0" layoutY="14.0" prefHeight="26.0" prefWidth="159.0" promptText="Previous Calculations" />
+   </children>
+</AnchorPane>
